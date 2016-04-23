@@ -37,11 +37,11 @@
             <div id="map"></div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
-            <h3 class="text-center text-capitalize">Name of the company</h3>
+            <h3 style="font-weight:700" class="text-center text-capitalize">Name of the company</h3>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <h4>Kontact details</h4>
-            <div><i class="fa fa-envelope-square"></i> Email : test@test.net</div>
-            <div><i class="fa fa-mobile-phone"></i> Phone : 1234 5678</div>
+            <h4 style="font-weight:700">Kontact details</h4>
+            <div>Email : test@test.net</div>
+            <div>Phone : 1234 5678</div>
             <hr>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -62,8 +62,8 @@
                     <h3>Team Member 1</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div><i class="fa fa-envelope-square"></i> Email : team_member_1@compnay.com</div>
-                    <div><i class="fa fa-mobile-phone"></i> Phone : 1234 6789</div>
+                    <div>Email : team_member_1@company.com</div>
+                    <div>Phone : 1234 6789</div>
                 </div>
             </div>
         </div>
@@ -74,8 +74,8 @@
                     <h3>Team Member 2</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div><i class="fa fa-envelope-square"></i> Email : team_member_2@compnay.com</div>
-                    <div><i class="fa fa-mobile-phone"></i> Phone : 1234 5678</div>
+                    <div>Email : team_member2@company.com</div>
+                    <div>Phone : 1234 5678</div>
                 </div>
             </div>
         </div>
@@ -241,7 +241,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="btn btn-primary" role="button">Read More</a>
+                        <a href="#" class="btn btn-primary" role="button">Read More</a>
                 </div>
             </div>
         </div>

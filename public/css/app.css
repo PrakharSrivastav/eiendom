@@ -114,7 +114,11 @@ body                    {background-color: #f1f1f1; margin-top:50px;font-family:
 .navbar                 {background-color: #fff; color: #a1a1a1}
 .text-white             {color: #fff}
 .text-blue              {color:#269abc;}
-.shadow                 {-webkit-box-shadow: 0 10px 6px -6px #777;-moz-box-shadow: 0 10px 6px -6px #777;box-shadow: 0 10px 6px -6px #777;}
+.shadow                 {
+    -webkit-box-shadow: 0 8px 6px -6px #777;
+    -moz-box-shadow: 0 8px 6px -6px #777;
+    box-shadow: 0 8px 6px -6px #777;
+}
 #om_oss                 {background: url('../image/norwegian_rose.png');line-height: 25px;padding: 40px 0px 60px 0px;}
 #kontakt_oss            {background-color: #fff;}
 #om_oss h1,
@@ -129,3 +133,6 @@ address                 {padding-left: 40px}
 #referanser             {background: url('../image/background_kontact.jpeg');}
 #ansatte                {background: url('../image/background_kontact2.jpeg')}
 .nav-pills              {background-color: #f1f1f1;}
+.btn                    {font-weight: 700}
+#top                    {position:fixed;bottom:30px;right:15px;background-color: #bababa;padding:10px;border-radius: 3px;opacity: 0.8;}
+#top a                  {color:#000}
