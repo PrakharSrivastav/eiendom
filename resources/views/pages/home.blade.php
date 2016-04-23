@@ -12,11 +12,11 @@
 <div class="col-xs-12" id="om_oss">
     <h1 class="text-center text-capitalize">Om Oss</h1>
     <div class="text-center">
-        <p>
+        <p class="margin-top-20">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         </p>
-        <p>
+        <p class="margin-top-30">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -24,15 +24,15 @@
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <p>
+        <p class="margin-top-30">
             <strong>Lorem ipsum</strong> dolor sit amet, <strong>consectetur</strong> adipisicing elit,
-            <a href=""> nostrud exercitation ullamco</a>
+            <a href=""class="text-warning"> nostrud exercitation ullamco</a>
         </p>
     </div>
 </div>
-<div class="col-xs-12 padding-15 margin-bottom-15" id="kontakt_oss">
-    <h1 class="text-center text-capitalize">Kontakt Oss</h1>
-    <div class="row">
+<div class="col-xs-12 padding-15 padding-bottom-30" id="kontakt_oss">
+    <h1 class="text-center text-capitalize margin-bottom-40">Kontakt Oss</h1>
+    <div class="row  padding-bottom-30">
         <div class="col-xs-12 col-sm-12 col-md-6">
             <div id="map"></div>
         </div>
@@ -52,11 +52,11 @@
         </div>
     </div>
 </div>
-<div class="col-xs-12" id="ansatte" style="background:#fff">
-    <h1 class="text-center text-capitalize">Ansatte</h1>
+<div class="col-xs-12" id="ansatte" >
+    <h1 class="text-center text-capitalize margin-bottom-40">Ansatte</h1>
     <div class="row margin-top-15">
-        <div class="col-sm-6 col-md-6">
-            <div class="thumbnail">
+        <div class="col-sm-6 col-md-offset-2 col-md-3 ">
+            <div class="thumbnail shadow">
                 <img src="{{url('image/team_member_1.jpg')}}" alt="..." class="img-responsive" height="100" style="width:100%">
                 <div class="caption">
                     <h3>Team Member 1</h3>
@@ -67,8 +67,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-6">
-            <div class="thumbnail">
+        <div class="col-sm-6 col-md-offset-2 col-md-3 ">
+            <div class="thumbnail shadow">
                 <img src="{{url('image/team_member_2.jpg')}}" alt="..."  class="img-responsive" height="100" style="width:100%;">
                 <div class="caption">
                     <h3>Team Member 2</h3>
@@ -81,9 +81,9 @@
         </div>
     </div>
 </div>
-<div class="col-xs-12" id="verdier">
-    <h1 class="text-center text-capitalize">Verdier</h1>
-    <div class="text-center">
+<div class="col-xs-12 col-md-offset-1 col-md-10" id="verdier">
+    <h1 class="text-center text-capitalize margin-bottom-40">Verdier</h1>
+    <div class="text-center margin-top-15">
         <div id="verdier_tabs">
             <!-- Nav tabs -->
             <ul class="nav nav-pills nav-justified" role="tablist" class="text-center">
@@ -93,22 +93,22 @@
                 <li role="presentation"><a href="#visjon" aria-controls="settings" role="tab" data-toggle="tab">Visjon</a></li>
                 <li role="presentation"><a href="#verdigrunnlag" aria-controls="settings" role="tab" data-toggle="tab">Verdigrunnlag</a></li>
             </ul>
-
+            <hr>
             <!-- Tab panes -->
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="eiendom">
+            <div class="tab-content margin-top-30">
+                <div role="tabpanel" class="tab-pane fade in active" id="eiendom">
                     Eiendomsbransjen i Norge preges av mange aktører og er i liten grad strukturert. Bransjen kan likevel sies å være delt mellom de store eiendomsbesitterene, ofte styrt av større finansielle aktører innen næringseiendom, og en rekke mindre aktører. Alt fra ulike selskaper som driver virksomhet i egne bygg, til mellomstore eiendomsbesittere, ofte lokalt forankret. Når det gjelder boligmarkedet er de større boligutviklerne ofte de samme som de store entreprenørselskapene når det gjelder større boligbygg og leilighetsmarkedet. I markedet for eneboliger og mindre boligprosjekter er det en hel rekke aktører som opererer. Her opplever vi stor konkurranse og til dels stor variasjon på kompetanse og kvalitet. I AOE ønsker vi å utmerke oss i disse markedene som en faglig dyktig aktør med fokus på kvalitet og ansvarlige løsninger.
                 </div>
-                <div role="tabpanel" class="tab-pane" id="historie">
+                <div role="tabpanel" class="tab-pane fade" id="historie">
                     Anders Opsahl startet tidlig med egne virksomheter og fra sitt barndomshjem på Skullerud Gård i Oslo ble alt fra sommerblomster, jordbær, julenek, egg og tomater produsert og solgt i nabolaget. Mye av grunnlaget for dagens virksomhet ble lært i denne fasen. Kvaliteten på varene og høy servicegrad var avgjørende for å lykkes og ga viktig lærdom. For 20 år siden som nyutdannet tømrer, med ferskt svennebrev i hånden, mange førnøyde kunder og stor arbeidslyst ble selskapet bygget opp. Den første eiendomsinvesteringen var en liten 1- roms leilighet og siden har tusenvis av kvadratmeter blitt utviklet. Blant annet leiligheter, rekkehus, eneboliger, butikker, handlesenter, lager og kontorbygg som i dag utgjør Anders Opsahl Gruppen. Hele veien tuftet på de samme prinsipper med en grunnmur som består av aktivt eierskap, lokalkunnskap, fagkunnskap, ærlighet, hardt arbeid og respekt for kundene.
                 </div>
-                <div role="tabpanel" class="tab-pane" id="mal">
+                <div role="tabpanel" class="tab-pane fade" id="mal">
                     Anders Opsahl gruppen har som mål å fortsette å vokse som en ansvarlig aktør, med fokus på å bygge langsiktige verdier for våre boligkjøpere, leietagere og oss selv.
                 </div>
-                <div role="tabpanel" class="tab-pane" id="visjon">
+                <div role="tabpanel" class="tab-pane fade" id="visjon">
                     Vår visjon er at vi alltid skal være stolte av måten vi opererer på og måten vi tjener penger på. Med dette mener vi at vi skal fortsette å ha fokus på alle typer resultater. Kombinasjonen av god lønnsomhet, mye ansvar og høy moral, gir oss positiv energi til å nå våre mål.
                 </div>
-                <div role="tabpanel" class="tab-pane" id="verdigrunnlag">
+                <div role="tabpanel" class="tab-pane fade" id="verdigrunnlag">
                     <h3>Moral.</h3>
                     AOE skal alltid opptre på en måte som gjør oss stolte av det vi driver med. Dette medfører at vi tar ansvar i alle ledd av våre virksomheter, med lokal tilknytting, aktivt eierskap, tett oppfølging, faglig styrke og redelighet skal både vi som jobber i AOE og våre samarbeidspartnere, være stolte av å bygge og forvalte våre eiendommer. Vi bryr oss og støtter en rekke ulike prosjekter både i inn og utland. Ikke bare lokale idrettslag nyter godt av vår støtte, vi er også faddere for en hel barneby i El Salvador, vi har bygget en fødeklinikk i Uganda og en mobil helseklinikk i San Salvador, for å nevne noe. I tillegg er vi Amnesty total supporter.
                     <h3>Miljø.</h3>
@@ -117,14 +117,13 @@
                     Vår visjon er at vi alltid skal være stolte av måten vi opererer på og måten vi tjener penger på. Med dette mener vi at vi skal fortsette å ha fokus på alle typer resultater. Kombinasjonen av god lønnsomhet, mye ansvar og høy moral, gir oss positiv energi til å nå våre mål.
                 </div>
             </div>
-
         </div>
     </div>
 </div>
 <div class="col-xs-12" id="fakturaaddresser">
-    <h1 class="text-center text-capitalize">Fakturaaddresser</h1>
+    <h1 class="text-center text-capitalize margin-bottom-40">Fakturaaddresser</h1>
     <div class="row">
-        <div class="col-xs-12 col-xs-6 col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4">
             <address>
                 <strong>Twitter, Inc.</strong><br>
                 1355 Market Street, Suite 900<br>
@@ -137,7 +136,7 @@
                 <a href="mailto:#">first.last@example.com</a>
             </address>
         </div>
-        <div class="col-xs-12 col-xs-6 col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4">
             <address>
                 <strong>Twitter, Inc.</strong><br>
                 1355 Market Street, Suite 900<br>
@@ -150,7 +149,7 @@
                 <a href="mailto:#">first.last@example.com</a>
             </address>
         </div>
-        <div class="col-xs-12 col-xs-6 col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4">
             <address>
                 <strong>Twitter, Inc.</strong><br>
                 1355 Market Street, Suite 900<br>
@@ -166,10 +165,10 @@
     </div>
 </div>
 <div class="col-xs-12" id="referanser">
-    <h1 class="text-center text-capitalize">Referenser / Projects</h1>
+    <h1 class="text-center text-capitalize margin-bottom-40">Referenser / Projects</h1>
     <div class="row">
         <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail shadow">
                 <img src="{{url('image/location_1.jpeg')}}" alt="..." class="img-responsive" height="100" style="width:100%;height:200px">
                 <div class="caption">
                     <h3>Location 1</h3>
@@ -177,12 +176,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="btn btn-primary" role="button">Red More</a>
+                    <a href="#" class="btn btn-primary" role="button">Read More</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail shadow">
                 <img src="{{url('image/location_2.jpeg')}}" alt="..." class="img-responsive" height="100" style="width:100%;height:200px">
                 <div class="caption">
                     <h3>Location 2</h3>
@@ -190,12 +189,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="btn btn-primary" role="button">Red More</a>
+                    <a href="#" class="btn btn-primary" role="button">Read More</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail shadow">
                 <img src="{{url('image/location_3.jpeg')}}" alt="..." class="img-responsive" height="100" style="width:100%;height:200px">
                 <div class="caption">
                     <h3>Location 3</h3>
@@ -203,12 +202,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="btn btn-primary" role="button">Red More</a>
+                    <a href="#" class="btn btn-primary" role="button">Read More</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail shadow">
                 <img src="{{url('image/location_4.jpeg')}}" alt="..." class="img-responsive" height="100" style="width:100%;height:200px">
                 <div class="caption">
                     <h3>Location 4</h3>
@@ -216,12 +215,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="btn btn-primary" role="button">Red More</a>
+                    <a href="#" class="btn btn-primary" role="button">Read More</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail shadow">
                 <img src="{{url('image/location_5.jpeg')}}" alt="..." class="img-responsive" height="100" style="width:100%;height:200px">
                 <div class="caption">
                     <h3>Location 5</h3>
@@ -229,12 +228,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="btn btn-primary" role="button">Red More</a>
+                    <a href="#" class="btn btn-primary" role="button">Read More</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail  shadow">
                 <img src="{{url('image/location_6.jpeg')}}" alt="..." class="img-responsive" height="100" style="width:100%;height:200px">
                 <div class="caption">
                     <h3>Location 6</h3>
@@ -242,7 +241,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <a href="#" class="btn btn-primary" role="button">Red More</a>
+                    <a href="#" class="btn btn-primary" role="button">Read More</a>
                 </div>
             </div>
         </div>

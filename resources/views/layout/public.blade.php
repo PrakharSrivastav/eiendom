@@ -15,8 +15,8 @@
         <title>Eiendom | {{$title}}</title>
     </head>
     <body>
-        <div class="container-fluid no-padding">
-            <nav class="navbar navbar-fixed-top navbar-default">
+        <div class="container-fluid no-padding ">
+            <nav class="navbar navbar-fixed-top navbar-default shadow">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -43,7 +43,7 @@
                 </div><!-- /.container-fluid -->
             </nav>
         </div>
-        <div class="container">
+        <div class="container-fluid no-padding no-margin">
             @yield('content')
         </div>
         <footer class="containter-fluid" style="background:#122b40">

@@ -2,6 +2,19 @@
  Created on : Apr 23, 2016, 12:37:54 AM
  Author     : prakhar <srivprakhar@gmail.com>
 */
+/*************External Fonts **************/
+@font-face {
+    font-family: "Champagne & Limousines";
+    src: url("../fonts/Champagne & Limousines.ttf");
+}
+@font-face {
+    font-family: "Raleway-Thin";
+    src: url("../fonts/Raleway-Thin.ttf");
+}
+@font-face {
+    font-family: "Raleway-Light";
+    src: url("../fonts/Raleway-Light.ttf");
+}
 /******** Spacing based styles *************/
 .no-margin              {margin:0px !important}
 .margin-1               {margin:1px !important}
@@ -97,6 +110,22 @@
 .padding-bottom-40      {padding-bottom:40px !important}
 .padding-left-40        {padding-left:40px !important}
 
-body                    {background-color: #f1f1f1; margin-top:80px}
+body                    {background-color: #f1f1f1; margin-top:50px;font-family:"Raleway-Thin",Helvetica,sans-serif;-webkit-font-smoothing: antialiased;font-weight:700}
 .navbar                 {background-color: #fff; color: #a1a1a1}
 .text-white             {color: #fff}
+.text-blue              {color:#269abc;}
+.shadow                 {-webkit-box-shadow: 0 10px 6px -6px #777;-moz-box-shadow: 0 10px 6px -6px #777;box-shadow: 0 10px 6px -6px #777;}
+#om_oss                 {background: url('../image/norwegian_rose.png');line-height: 25px;padding: 40px 0px 60px 0px;}
+#kontakt_oss            {background-color: #fff;}
+#om_oss h1,
+#kontakt_oss h1,
+#ansatte h1,
+#verdier h1,
+#referanser h1,
+#fakturaaddresser h1    {font-weight: 700;margin-bottom: 40px}
+address                 {padding-left: 40px}
+#verdier                {min-height:550px !important}
+#fakturaaddresser       {background:#fff}
+#referanser             {background: url('../image/background_kontact.jpeg');}
+#ansatte                {background: url('../image/background_kontact2.jpeg')}
+.nav-pills              {background-color: #f1f1f1;}
